@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9502624900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Contact Us Action",
+        "description": "",
+        "id": "shopping-cart-on-an-e-commerce-website;contact-us-action",
+        "after": [
+          {
+            "result": {
+              "duration": 611019400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6579014500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "customer is on homepage",
+            "match": {
+              "location": "SigninSignoutContactUsSteps.customer_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2548548700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "customer perform contact us actions",
+            "match": {
+              "location": "SigninSignoutContactUsSteps.customer_perform_contact_us_actions()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@contactus"
+          }
+        ]
+      }
+    ],
+    "name": "Shopping cart on an e-commerce website",
+    "description": "Custumer is able to view search feature, categories, basket, login, wishlist and logo",
+    "id": "shopping-cart-on-an-e-commerce-website",
+    "keyword": "Feature",
+    "uri": "SigninSignoutContactUs.feature"
+  }
+]
